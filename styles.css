@@ -1,0 +1,70 @@
+body {
+    background-color: #2e3440;
+    color: #e5e5e5;
+    font-family: "Monospace", monospace;
+    display: flex;
+    flex-direction: column; /* Ensure the layout is vertical */
+    align-items: center; /* Center align items */
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.flag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.digital-clock {
+    font-family: 'Digital 7', monospace; /* Use Digital 7 font */
+    color: red; /* Change clock font color to red */
+    font-size: 2em; /* Font size for time */
+    margin-bottom: 20px; /* Space between the clock and the header */
+    text-align: center; /* Center the text */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #a3a3a3;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.category {
+    border: 1px solid #a3a3a3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.category h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.links a:hover {
+    color: #a3a3a3;
+}
+
